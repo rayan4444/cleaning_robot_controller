@@ -1,0 +1,42 @@
+### Altium ###
+# Don't include Release folders #
+**/Release files/*
+
+**/release/*
+# Previews Folders
+**/__Previews/
+
+# PrjPCBStructure files #
+**/*.PrjPcbStructure
+
+# OutJob Files #
+**/*.OutJob
+
+# History Folders
+**/History/*
+
+# Project Logs
+Project\ Logs*/
+
+# Project Outputs
+Project\ Outputs*/
+
+# Auto-conversion notices
+*.PcbDoc.htm
+
+# Access lock file for dbLib sources
+**/*.ldb
+
+#debug logs
+debug.log
+
+#Altium malfunction outputs
+**/*.$$$
+
+#vscode files
+
+
+#Eagle files
+**/**.s#*
+**/**.b#*
+**/**.scr
