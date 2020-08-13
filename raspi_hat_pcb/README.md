@@ -1,4 +1,4 @@
-# Raspberry Pi Hat 
+# Raspberry Pi Hat
 
 ## Description
 This board plugs onto a Raspberry pi and features:
@@ -17,7 +17,9 @@ In this board, the SWD pins are connected to the Raspberry Pi connector so you c
 The soldered boards sent already have the Arduino bootloader burned and can be programmed directly.
 
 ## Hardware connections
+
 MCU:
+
 |ATSAMD21G18 Pin|Arduino Pin|Signal| Notes|
 |:---:|:---:|:---:|:---:|
 |PA5| A4 or 18|FAN_MCU| to toggle cooling fan from the MCU|
@@ -39,6 +41,7 @@ MCU:
 |PA31|SWDIO|SWDIO|To Rpi,  for first time bootlader burning|
 
 Raspberry Pi:
+
 |Raspberry Pi GPIO|Raspberry Pi Pin|Signal|Notes|
 |:---:|:---:|:---:|:---:|
 |GPIO 2|3|RPI_SDA|to IMU|

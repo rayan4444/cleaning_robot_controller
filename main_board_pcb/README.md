@@ -115,6 +115,7 @@ Microcontroller
 |PE2|GPIO OUT|SPARE_GPIO2||
 
 Signals from Analog Mux:
+
 |Channel|S0/S1/S2|Signal|
 |:---:|:---:|:---:|
 |Y0|0/0/0|STAINING_FAN2_CURRENT|
